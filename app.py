@@ -32,6 +32,15 @@ This tool helps you:
 - Identify potential competitors
 """)
 
+# Tambahkan Ko-fi button
+st.markdown("""
+<div style='text-align: left; margin-bottom: 30px;'>
+    <a href='https://ko-fi.com/R6R11D20QQ' target='_blank'>
+        <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+    </a>
+</div>
+""", unsafe_allow_html=True)
+
 # API settings in expander
 with st.expander("⚙️ API Settings (Optional)", expanded=False):
     st.info("Using API keys enhances keyword generation with more accurate results.")
